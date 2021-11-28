@@ -1,0 +1,22 @@
+Início:28/11/2021
+Alura
+
+> Criar próprias APIS
+> Entendimento dos recursos rest
+
+fundamentos até o funcionamento da API
+
+1- Crie uma pasta com um ambiente virtual
+python3 -m venv ./venv
+
+2 - Ative o ambiente virtual
+venv\Scripts\activate.bat
+
+3 - Instale o Django nesse ambiente virtualizado:
+pip install django
+
+4 - Crie um projeto chamado setup:
+django-admin startproject setup .
+
+5 - Instale o postman:
+https://www.postman.com/downloads/
