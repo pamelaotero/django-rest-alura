@@ -1,10 +1,8 @@
-Início:28/11/2021
-Alura
+Início: 28/11/2021
 
-> Criar próprias APIS
+> Criar próprias APIs
 > Entendimento dos recursos rest
-
-fundamentos até o funcionamento da API
+Fundamentos até o funcionamento da API
 
 1- Crie uma pasta com um ambiente virtual
 python3 -m venv ./venv
@@ -20,3 +18,15 @@ django-admin startproject setup .
 
 5 - Instale o postman:
 https://www.postman.com/downloads/
+
+
+6 - Executar com:
+python manage.py runserver
+
+
+7 - Comando para iniciar uma aplicação:
+
+python manage.py startapp <nome-da-aplicacao>
+
+
+
