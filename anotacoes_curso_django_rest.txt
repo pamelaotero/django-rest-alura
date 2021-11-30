@@ -28,5 +28,25 @@ python manage.py runserver
 
 python manage.py startapp <nome-da-aplicacao>
 
+8 - Instalção do Django Rest Framework:
+
+https://www.django-rest-framework.org/
+
+Installation
+Install using pip, including any optional packages you want...
+
+pip install djangorestframework
+pip install --upgrade pip
+pip install markdown       # Markdown support for the browsable API.
+pip install django-filter  # Filtering support
+
+> Criar as migrações
+
+python manage.py makemigrations
+
+> banco de dados quero que você suba todas as migrações
 
 
+# sobe no banco todas as migrações que eu tenho da minha aplicação
+# até o momento eu tenho no banco de dados uma tabela chamada Aluno e Cursos
+python manage.py migrate
